@@ -7,15 +7,17 @@
 #   name: link || icon
 
 menu:
-  Home: / || fas fa-home
-  Archives: /archives/ || fas fa-archive
-  Tags: /tags/ || fas fa-tags
-  Categories: /categories/ || fas fa-folder-open
-  List||fas fa-list:
-    Music: /music/ || fas fa-music
-    Movie: /movies/ || fas fa-video
-  Link: /link/ || fas fa-link
-  About: /about/ || fas fa-heart
+  首页: / || fas fa-home
+  博客:||fas fa-list:
+    归档: /archives/ || fas fa-archive
+    标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder-open
+  诗词: /poem/ || fas fa-book
+  # List||fas fa-list:
+  #   Music: /music/ || fas fa-music
+  #   Movie: /movies/ || fas fa-video
+  # Link: /link/ || fas fa-link
+  关于我: /about/ || fas fa-heart
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: true
@@ -50,13 +52,13 @@ social:
 
 # Algolia search
 algolia_search:
-  enable: false
+  enable: true
   hits:
     per_page: 6
 
 # Local search
 local_search:
-  enable: false
+  enable: true
 
 # Math (數學)
 # --------------------------------------
@@ -136,7 +138,7 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: false
+  enable: true
   subtitle: 'Page Not Found'
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
@@ -409,8 +411,8 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2020
-  custom_text:
+    since: 2021
+  custom_text: you are my friend
   copyright: true # Copyright of theme and framework
 
 ICP:
@@ -514,7 +516,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: https://i.loli.net/2019/09/09/5oDRkWVKctx2b6A.png
+background: url(https://i.loli.net/2019/09/09/5oDRkWVKctx2b6A.png)
 
 # Footer Background
 footer_bg: true
@@ -585,7 +587,7 @@ ClickShowText:
 
 # Default display mode (網站默認的顯示模式)
 # light (default) / dark
-display_mode: light
+display_mode: dark
 
 # Beautify (美化頁面顯示)
 beautify:
@@ -637,7 +639,7 @@ subtitle:
     - 你陪了我多少年&#44;花开花落&#44;一路上起起跌跌
     - 很高兴你来看我&#44;你的脸上又多出了一丝皱纹
     - 无论好事还是坏事&#44;总会有结束的一天
-    - 时间催人老&#44;改变了我们原来的样子
+    - 岁月催人老&#44;改变了我们原来的样子
     - 人总是要向前看的&#44;但要牢记往事
 
 # Loading Animation (加載動畫)
