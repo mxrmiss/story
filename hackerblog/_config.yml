@@ -106,7 +106,7 @@ theme: fluid
 deploy:
   type: git
   repo: git@github.com:mxrmiss/story.git
-   branch: master
+  branch: master
 
 feed:
   type: atom
