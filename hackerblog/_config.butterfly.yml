@@ -38,6 +38,7 @@ copy:
   enable: true
   copyright:
     enable: false
+    
     limit_count: 50
 
 # social settings (社交圖標設置)
@@ -86,38 +87,38 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://herozql.oss-cn-beijing.aliyuncs.com/headshot.jpeg
+  img: https://mxrblog.cn/headshot.jpeg
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/black/971161.jpg
+index_img: https://mxrblog.cn/bing/bing_48.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://herozql.oss-cn-beijing.aliyuncs.com/black/971161.jpg
+default_top_img: https://mxrblog.cn/black/971161.jpg
 
 # The banner image of archive page
-archive_img: https://herozql.oss-cn-beijing.aliyuncs.com/CT/22.jpg
+archive_img: https://mxrblog.cn/CT/22.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: https://herozql.oss-cn-beijing.aliyuncs.com/CT/23.jpg
+tag_img: https://mxrblog.cn/CT/23.jpg
 
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img: https://herozql.oss-cn-beijing.aliyuncs.com/CT/12.jpg
+tag_per_img: https://mxrblog.cn/CT/12.jpg
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: https://herozql.oss-cn-beijing.aliyuncs.com/CT/17.jpg
+category_img: https://mxrblog.cn/CT/17.jpg
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_per_img: https://herozql.oss-cn-beijing.aliyuncs.com/CT/15.jpg
+category_per_img: https://mxrblog.cn/CT/15.jpg
 
 cover:
   # display the cover or not (是否顯示文章封面)
@@ -412,19 +413,29 @@ footer:
   owner:
     enable: true
     since: 2021
-  custom_text: you are my friend
+  custom_text: <a href="icp链接"><img class="icp-icon" src="icp图片"><span>备案号：皖ICP备2021018016号</span></a>
   copyright: true # Copyright of theme and framework
 
-ICP:
-  enable: false  # 是否启用ICP
-  url: http://www.beian.miit.gov.cn/  # 点击后的链接地址
-  text: 某ICP备xxxx  # 备案号
-  icon:    # 图标
-NSP:
-  enable: false   # 是否启用NSP
-  url: http://www.beian.gov.cn/  # 点击后的链接地址
-  text: 某公网安备 xxxxx号    # 公安备案号
-  icon: https://blog.imashimaro.com/images/20200805012127.png  # 图标
+  ICP:
+    enable: true  # 是否启用ICP
+    url: http://www.beian.miit.gov.cn/  # 点击后的链接地址
+    text: 皖ICP备2021018016号  # 备案号
+    icon: https://blog.imashimaro.com/images/20200805012127.png   # 图标
+  NSP:
+    enable: false   # 是否启用NSP
+    url: http://www.beian.gov.cn/  # 点击后的链接地址
+    text: 某公网安备 xxxxx号    # 公安备案号
+    icon: https://blog.imashimaro.com/images/20200805012127.png  # 图标
+  # ICP:
+  #   enable: true  # 是否启用ICP
+  #   url: http://www.beian.miit.gov.cn/  # 点击后的链接地址
+  #   text: 皖ICP备2021018016号  # 备案号
+  #   icon:    # 图标
+  # NSP:
+  #   enable: false   # 是否启用NSP
+  #   url: http://www.beian.gov.cn/  # 点击后的链接地址
+  #   text: 某公网安备 xxxxx号    # 公安备案号
+  #   icon: https://blog.imashimaro.com/images/20200805012127.png  # 图标
 
 # Analysis
 # --------------------------------------
@@ -516,7 +527,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://herozql.oss-cn-beijing.aliyuncs.com/bing%E5%A3%81%E7%BA%B8/bing_32.jpg)
+background: url(https://mxrblog.cn/bing/bing_32.jpg)
 
 # Footer Background
 footer_bg: true
@@ -647,6 +658,7 @@ subtitle:
     - 少年心事当拏云，谁念幽寒坐呜呃。
     - 无论好事还是坏事&#44;总会有结束的一天
     - 希望所有人都快乐&#44;每个人都住进了理想国
+    
 
 # Loading Animation (加載動畫)
 preloader: true
