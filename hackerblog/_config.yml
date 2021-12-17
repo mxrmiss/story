@@ -8,7 +8,7 @@ subtitle: '落花无情'
 description: '流水何须有意'
 keywords: 技术
 author: Ricardo
-language: zh-CN
+language: en_US
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -103,10 +103,10 @@ theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-#deploy:
-  # type: git
-  # repo: git@github.com:mxrmiss/story.git
-  #  branch: master
+deploy:
+  type: git
+  repo: git@github.com:mxrmiss/story.git
+  branch: master
 
 feed:
   type: atom
