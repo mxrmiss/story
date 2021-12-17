@@ -413,19 +413,9 @@ footer:
   owner:
     enable: true
     since: 2021
-  custom_text: <a href="icp链接"><img class="icp-icon" src="icp图片"><span>备案号：皖ICP备2021018016号</span></a>
+  custom_text: <a href="https://beian.miit.gov.cn/" target="_blank">您的备案号</a>
   copyright: true # Copyright of theme and framework
 
-  ICP:
-    enable: true  # 是否启用ICP
-    url: http://www.beian.miit.gov.cn/  # 点击后的链接地址
-    text: 皖ICP备2021018016号  # 备案号
-    icon: https://blog.imashimaro.com/images/20200805012127.png   # 图标
-  NSP:
-    enable: false   # 是否启用NSP
-    url: http://www.beian.gov.cn/  # 点击后的链接地址
-    text: 某公网安备 xxxxx号    # 公安备案号
-    icon: https://blog.imashimaro.com/images/20200805012127.png  # 图标
   # ICP:
   #   enable: true  # 是否启用ICP
   #   url: http://www.beian.miit.gov.cn/  # 点击后的链接地址
