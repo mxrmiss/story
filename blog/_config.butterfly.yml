@@ -119,8 +119,7 @@ category_img: https://mxrblog.cn/bg_pic/ct_17.jpg
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_per_img: https://mxrblog.cn/bg_pic/ct_4.jpg
-                  https://mxrblog.cn/bg_pic/ct_15.jpg
+category_per_img: https://mxrblog.cn/bg_pic/ct_15.jpg
 
 cover:
   # display the cover or not (是否顯示文章封面)
