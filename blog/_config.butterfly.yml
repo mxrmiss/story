@@ -97,28 +97,28 @@ disable_top_img: false
 index_img: https://mxrblog.cn/bg_pic/bing_48.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://mxrblog.cn/bg_pic/ct_16.jpg
+default_top_img: 
 
 # The banner image of archive page
 archive_img: https://mxrblog.cn/bg_pic/ct_4.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: https://mxrblog.cn/bg_pic/ct_4.jpg
+tag_img: https://mxrblog.cn/bg_pic/bing_48
 
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img: https://mxrblog.cn/bg_pic/ct_4.jpg
+tag_per_img: https://mxrblog.cn/bg_pic/bing_48.jpg
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: https://mxrblog.cn/bg_pic/ct_4.jpg
+category_img: https://mxrblog.cn/bg_pic/bing_48.jpg
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_per_img: https://mxrblog.cn/bg_pic/ct_4.jpg
+category_per_img: https://mxrblog.cn/bg_pic/bing_48.jpg
 #################################################################################
 
 cover:
