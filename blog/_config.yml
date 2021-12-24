@@ -117,3 +117,7 @@ feed:
   content_limit: 140
   content_limit_delim: " "
   order_by: -date
+
+search:
+path: search.xml
+field: post  #将post改为all即为搜索全部页面
