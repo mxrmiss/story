@@ -1,7 +1,6 @@
 ---
 title: about
 date: 2021-12-09 21:44:50
-layout: about
 ---
 
 - Ricardo是谁？Ricardo是我，但在我看来，一千个作者就是一千个Ricardo，他来自小说《龙族》中路明非(Ricardo M. Lu)。
