@@ -44,16 +44,16 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: false
   hljs: true
 prismjs:
-  enable: false
+  enable: true
   preprocess: true
-  line_number: false
+  line_number: true
   tab_replace: ''
 
 # Home page setting
@@ -99,7 +99,8 @@ ignore:
 ## Themes: https://hexo.io/themes/
 #theme: ayer
 #theme: fluid
-theme: butterfly
+#theme: butterfly
+theme: bamboo
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
