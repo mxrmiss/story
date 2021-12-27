@@ -20,7 +20,7 @@ hide_sidebar_menu_child: true
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: darker #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -145,7 +145,7 @@ post_meta:
     tags: true # true or false 主頁是否顯示標籤
     label: true # true or false 顯示描述性文字
   post:
-    date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
+    date_type: created # created or updated or both 文章頁日期是創建日或者更新日或都顯示
     date_format: date # date/relative 顯示日期還是相對日期
     categories: true # true or false 文章頁是否顯示分類
     tags: true # true or false 文章頁是否顯示標籤
@@ -620,17 +620,17 @@ subtitle:
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
-    - 别来不寄一行书。寻常相见了&#44;犹道不如初
-    - 年年岁岁花相似&#44;岁岁年年人不同
-    - 此翁白头真可怜&#44;伊昔红颜美少年
-    - 同来望月人何处&#44;风影依稀似去年
-    - 我是人间惆怅客&#44;知君何事泪纵横&#44;断肠声里忆平生
-    - 十年一觉扬州梦&#44;赢得青楼薄幸名
-    - 从此无心爱良夜&#44;任他明月下西楼
-    - 等闲变却故人心&#44;却道故心人易变
-    - 少年心事当拏云&#44;谁念幽寒坐呜呃
-    - 无论好事还是坏事&#44;总会有结束的一天
-    - 希望所有人都快乐&#44;每个人都住进了理想国
+    - 别来不寄一行书。寻常相见了&#44; 犹道不如初
+    - 年年岁岁花相似&#44; 岁岁年年人不同
+    - 此翁白头真可怜&#44; 伊昔红颜美少年
+    - 同来望月人何处&#44; 风影依稀似去年
+    - 我是人间惆怅客&#44; 知君何事泪纵横&#44; 断肠声里忆平生
+    - 十年一觉扬州梦&#44; 赢得青楼薄幸名
+    - 从此无心爱良夜&#44; 任他明月下西楼
+    - 等闲变却故人心&#44; 却道故心人易变
+    - 少年心事当拏云&#44; 谁念幽寒坐呜呃
+    - 无论好事还是坏事&#44; 总会有结束的一天
+    - 希望所有人都快乐&#44; 每个人都住进了理想国
 
 # Loading Animation (加載動畫)
 preloader: false
