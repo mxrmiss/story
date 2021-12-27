@@ -44,11 +44,11 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: false
+  enable: true
   line_number: false
-  auto_detect: true
+  auto_detect: false
   tab_replace: ''
-  wrap: true
+  wrap: false
   hljs: true
 prismjs:
   enable: false
@@ -104,9 +104,9 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 #deploy:
-  # type: git
-  # repo: git@github.com:mxrmiss/story.git
-  #  branch: master
+#  type: git
+#  repo: git@github.com:mxrmiss/story.git
+#  branch: master
 
 feed:
   type: atom
