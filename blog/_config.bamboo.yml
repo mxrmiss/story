@@ -295,7 +295,7 @@ homePostImgsPosition:
 lantern:
   on: true
   left: '测' # 左边灯笼的文字， 空字符串则没有文字
-  right: '式' # 右边灯笼的文字
+  right: '试' # 右边灯笼的文字
 
 # https://scrollrevealjs.org/api/reveal.html 滚动动画, 旧版本用的是aos.js(已经弃用aos.js)
 scrollreveal:
@@ -545,7 +545,7 @@ danmu:
 # 归档页面图片、描述、视频，全屏 or 'http://xxx'
 archive:
   title: 'archive'
-  img: 'https://pic1.zhimg.com/80/v2-1414b3a4b205e19060db18a20d08723a_1440w.jpg?source=1940ef5c'
+  img: 'https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/ct_12.jpg'
   desc: '愿你如风，被人温柔以待'
   full: false # 设置为true，则图片全屏显示
   video: '' # 如果有值，则在屏幕大于920px的时候，全屏显示视频，为空则显示图片(img)
@@ -557,7 +557,7 @@ archive:
 # 标签页面，配置同上
 tag:
   title: 'tags'
-  img: 'https://pic2.zhimg.com/80/v2-bf6c555e7c61a57ba4a1fd95a9a32975_1440w.jpg' # 标签页上面的图片
+  img: 'https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/ct_15.jpg' # 标签页上面的图片
   desc: '愿你如风，被人温柔以待'
   full: false # 标签页上面的图片是否全屏显示
   video: '' # 如果有值，则在屏幕大于920px的时候，全屏显示视频
@@ -567,7 +567,7 @@ tag:
 # 标签详情页面，配置同上
 tagDetail:
   title: 'tag'
-  img: 'https://pic1.zhimg.com/80/v2-604a15cef201cf177943af2d915eb2e7_1440w.jpg?source=1940ef5c'
+  img: 'https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/ct_23.jpg'
   desc: '愿你如风，被人温柔以待' # 标签页详情上上面的图片上的文字
   full: false
   video: ''
@@ -576,7 +576,7 @@ tagDetail:
 # 分类页面，配置同上
 categories:
   title: 'categories'
-  img: 'https://pic2.zhimg.com/80/v2-7c496c95897fb15768593cc5170c8b1a_1440w.jpg?source=1940ef5c'
+  img: 'https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/ct_4.jpg'
   desc: '愿你如风，被人温柔以待'
   full: false
   video: ''
@@ -586,7 +586,7 @@ categories:
 #分类详情页面，配置同上
 categoryDetail:
   title: 'category'
-  img: 'https://pic3.zhimg.com/80/v2-98dcd81cb0d1fee52a807c13cedb8338_1440w.jpg?source=1940ef5c'
+  img: 'https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/ct_17.jpg'
   desc: '愿你如风，被人温柔以待'
   full: false
   video: ''
@@ -702,8 +702,9 @@ site_footer:
     #   url: https://github.com/yuang01/hexo-theme-bamboo
     # - icon: fas fa-qq
     #   url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1730241541
-  copyright: 'Copyright © 2019 - 2020 <a href="https://github.com/yuang01">yuang01</a> | Powered by <a href="https://hexo.io/zh-cn/docs/">Hexo</a> | Theme <a href="https://github.com/yuang01/theme">Bamboo</a> '
+  copyright: 'Copyright © 2021-2022 | <a href="https://www.beian.miit.gov.cn"><span>备案号：皖ICP备2021018016号</span></a> '
   custom: # 根据需要自行取消注释，label: 'markdown格式'，会在下面继续增加内容
+    - label: '春眠不觉晓，处处闻啼鸟。'
     # - label: '<br>'
     # - label: '[Hello World](http://baidu.com)'
   
@@ -763,7 +764,7 @@ lazyload:
 
 # prismjs代码高亮，在根目录下的_config.yml文件中将prismjs.enable设为true的时候, 在这里选择主题样式
 prismjs:
-  theme: 'default' # default, coy, dark, funky, okaidia, solarizedlight, tomorrow, twilight
+  theme: 'dark' # default, coy, dark, funky, okaidia, solarizedlight, tomorrow, twilight
 
 # highlight代码高亮，在根目录下的_config.yml文件中将highlight设为true的时候，在这里自定义颜色值
 # https://github.com/chriskempson/tomorrow-theme
@@ -783,7 +784,7 @@ highlight:
 
 # wordcount字数统计, 需要 npm i hexo-wordcount 安装
 wordcount:
-  on: false
+  on: true
 
 # 自己嵌入css或者script
 import:
