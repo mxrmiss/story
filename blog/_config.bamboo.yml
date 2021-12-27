@@ -53,11 +53,11 @@ sidebar:
   widget_library:
     side_blogger:
       on: true
-      avatar: http://api.btstu.cn/sjtx/api.php?lx=c1&format=images
+      avatar: https://herozql.oss-cn-beijing.aliyuncs.com/headshot.jpeg  # http://api.btstu.cn/sjtx/api.php?lx=c1&format=images
       shape: rectangle # circle, rectangle
       url: /about/
-      title: 青墨书晚风
-      subtitle: 我是副标题
+      title: 零零幺
+      subtitle: 信息安全与编程-个人技术博客
       jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
       fontFammily: Long Cang,cursive
       background: '#fff'
@@ -66,11 +66,11 @@ sidebar:
         - icon: fas fa-rss
           url: /atom.xml
         - icon: fas fa-envelope
-          url: mailto:me@xxx.com
+          url: mailto:heroli520@outlook.com
         - icon: fab fa-github
-          url: https://github.com/yuang01/hexo-theme-bamboo
+          url: https://github.com/mxrmiss
         - icon: fab fa-qq
-          url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=你的qq号码
+          url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2296557984
     # ---------------------------------------
     # category widget
     side_category:
@@ -140,7 +140,7 @@ sidebar:
           unit: '篇'
         runtime:
           on: true
-          data: '2020/01/01'    # 填写建站日期
+          data: '2021/12/01'    # 填写建站日期
           text: '已运行时间：'
           unit: '天'
         wordcount:
@@ -165,7 +165,7 @@ sidebar:
 
 # 页面刷新时预加载动画
 preloader:
-  on: true
+  on: false
 
 # 首页轮播图设置
 swiper:
@@ -187,11 +187,11 @@ swiper:
   defaultImg: 'https://img11.360buyimg.com/ddimg/jfs/t1/160978/33/20686/2476596/6083e62dEa588862b/63f8f2163ab61b2f.png' # 图片，没有则随机选取
   defaultVideo: '' # video，min-width:992px show
   defaultVideoLoadingImg: 'https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif' # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
-  defaultTile: '青墨书晚风' # 标题
-  defaultDesc: [] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
-  defaultLeftBtnText: '阅读文档' # 左边按钮文字, 空字符串则不显示
+  defaultTile: '零零幺' # 标题
+  defaultDesc: [网站测试中......] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
+  defaultLeftBtnText: '' # 左边按钮文字, 空字符串则不显示
   defaultLeftBtnLink: 'https://yuang01.gitee.io/2021/02/08/hexo-theme-bamboo-new/' # 左边按钮链接 
-  defaultRightBtnText: '下载主题' # 右边按钮的文字，空字符串则不显示
+  defaultRightBtnText: '' # 右边按钮的文字，空字符串则不显示
   defaultRightBtnLink: 'https://gitee.com/yuang01/hexo-theme-bamboo/repository/archive/dev.zip' # 右边的按钮的链接
   defaultDescTyped: true # defaultDesc文字是否开启打字特效  is typed
   defaultDescTypedSpeed: 100 # defaultDesc 打字速度, typed typeSpeed
@@ -227,7 +227,7 @@ show_count: true
 
 # 打赏功能
 donate:
-  on: true
+  on: false
 donate_message: 你的赏识是我前进的动力
 # 支付宝打赏图片相对路径
 Alipay: '/medias/zfb.jpg'
@@ -242,11 +242,11 @@ sharejs:
 # 鼠标点击特效
 cursor_effect:
   on: true
-  type: explosion  # fireworks: 礼花 | explosion: 爆炸 | love: 浮出爱心 | text: 浮出文字
+  type: love  # fireworks: 礼花 | explosion: 爆炸 | love: 浮出爱心 | text: 浮出文字
 
 # 头部导航是否显示天气
 weather:
-  on: false
+  on: true
 
 # 全文搜索功能
 search:
@@ -272,14 +272,14 @@ ribbon:
 
 # live-2d(左下角动画人物)
 live2d:
-  on: true # 控制显示或者隐藏
+  on: false # 控制显示或者隐藏
   modelId:  # 0 or 1 or 2 or 3 or 4 or 5 or 6
   open: true # 默认展开，false则收缩，通过点左下角的方块点击，控制展开或者收缩
 
 # 首页雪花飘落效果--冬天
 snow:
-  on: false
-  onlyPc: false # 设为true，只有pc端显示雪花特效
+  on: true
+  onlyPc: true # 设为true，只有pc端显示雪花特效
 
 # 首页花瓣飘落效果--春天
 sakura:
@@ -288,14 +288,14 @@ sakura:
 
 # 首页文章图片是否一左一右交错显示
 homePostImgsPosition:
-  on: true
+  on: false
   left: true # 当上面的on设置为false（不交叉显示），则指定left为true的时候，图片在左边显示
 
 # 灯笼
 lantern:
-  on: false
-  left: '春' # 左边灯笼的文字， 空字符串则没有文字
-  right: '节' # 右边灯笼的文字
+  on: true
+  left: '测' # 左边灯笼的文字， 空字符串则没有文字
+  right: '式' # 右边灯笼的文字
 
 # https://scrollrevealjs.org/api/reveal.html 滚动动画, 旧版本用的是aos.js(已经弃用aos.js)
 scrollreveal:
@@ -331,7 +331,7 @@ toc:
 
 # 音乐
 music:
-  on: true
+  on: false
   autoHide: true    # hide automaticaly
   server: tencent   #require	music platform: netease, tencent, kugou, xiami, baidu
   type: playlist    #require song, playlist, album, search, artist
@@ -348,7 +348,7 @@ music:
 
 # 关于我
 baseInfo:
-  on: true
+  on: false
   age: 99 # 年龄
   sex: '男' # 性别
   coordinate: '火星' # 坐标
@@ -356,7 +356,7 @@ baseInfo:
 
 # 关于我 技能
 skills:  # color or #000 技能
-  on: true
+  on: false
   # data: # data下面的值，不是固定个数的，可以自己增加或者删除
   #   HTML5:
   #     background: 'linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%)'
@@ -376,7 +376,7 @@ skills:  # color or #000 技能
 
 # 关于我 社交账号
 socialAccounts: 
-  on: true
+  on: false
   # data: # data下面的值，不是固定个数的，可以自己增加或者删除
   #   QQ:
   #     icon: fas fa-qq
@@ -389,7 +389,7 @@ socialAccounts:
 
 # 关于我 游戏
 games:
-  on: true
+  on: false
   # data: # data下面的值，不是固定个数的，可以自己增加或者删除
   #   王者荣耀:
   #     img: 'https://pic2.zhimg.com/80/v2-54730a36304842b86a57a237b8b39945_720w.jpg?source=1940ef5c'
@@ -402,7 +402,7 @@ games:
 
 # 关于我 书籍
 books:
-  on: true
+  on: false
   # data: # data下面的值，不是固定个数的，可以自己增加或者删除
   #   明朝那些事儿:
   #     img: 'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2736238052,2078148140&fm=26&gp=0.jpg'
@@ -419,7 +419,7 @@ copyright:
 motto:
   on: true
   title: '座右铭'
-  content: '沉淀后我愿意做个温暖的人，有自己的喜好，有自己的原则，有自己的信仰，不急功近利，不浮夸轻薄。宠辱不惊，淡定安逸，心静如水，不忘初心，方得始终。——凌茜'
+  content: '不是每一次失败后都能成功，但总有一次会的 -by Ricardo Li'
   background: 'url("https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png")' # url("xxx") or red or #000 or rgba() ..
 
 # 首页公告
@@ -429,6 +429,7 @@ notice:
   title: '公告'
   background: 'url("https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png")' # url("xxx") or red or #000 or rgba() ..
   list: # list相当于数组对象，[{title:'xx',date: 'xx', url: 'xxx', color: 'red'}]根据自己实际情况，增加或者删除
+    - title: '网站测试中'
     # - title: '#博客更新到2.0了'
     #   date: '2021-04-28'
     #   url: '/archives'   # 可以为空, 也可以是本地页面地址如 '/archives'
@@ -546,7 +547,7 @@ archive:
   title: 'archive'
   img: 'https://pic1.zhimg.com/80/v2-1414b3a4b205e19060db18a20d08723a_1440w.jpg?source=1940ef5c'
   desc: '愿你如风，被人温柔以待'
-  full: true # 设置为true，则图片全屏显示
+  full: false # 设置为true，则图片全屏显示
   video: '' # 如果有值，则在屏幕大于920px的时候，全屏显示视频，为空则显示图片(img)
   background: '' # red or rgba(255,255,255,0.8) or other color or url("http:xxx.png")
   yearColor: '' # 年份字体颜色
