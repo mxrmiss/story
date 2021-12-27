@@ -406,7 +406,7 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2021
   custom_text: <a href="https://www.beian.miit.gov.cn"><span>备案号：皖ICP备2021018016号</span></a>
   copyright: true # Copyright of theme and framework
 
@@ -712,7 +712,7 @@ change_font_size: true
 
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
-  enable: true
+  enable: false
   # The text of a button
   default: 简
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
