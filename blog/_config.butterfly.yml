@@ -89,7 +89,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: /img/ct_43.jpg
+index_img: /img/ct_48.jpg
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: /img/ct_37.jpg
