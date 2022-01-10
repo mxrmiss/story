@@ -511,7 +511,7 @@ footer_bg: true
 rightside-bottom:
 
 # Enter transitions (開啓網頁進入效果)
-enter_transitions: true
+enter_transitions: false
 
 # Background effects (背景特效)
 # --------------------------------------
@@ -546,7 +546,7 @@ canvas_nest:
 activate_power_mode:
   enable: true
   colorful: true # open particle animation (冒光特效)
-  shake: true #  open shake (抖動特效)
+  shake: false #  open shake (抖動特效)
   mobile: false
 
 # Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)

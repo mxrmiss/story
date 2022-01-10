@@ -44,7 +44,7 @@ Github:
 logo: /medias/logo.png # 为空则不显示
 
 # 网站 favicon
-favicon: https://herozql.oss-cn-beijing.aliyuncs.com/logo.png # or .png .jpg .svg .gif .jpeg .ico
+favicon: https://pic.001.social/logo.png # or .png .jpg .svg .gif .jpeg .ico
 
 # sidebar侧边栏
 sidebar:
@@ -53,7 +53,7 @@ sidebar:
   widget_library:
     side_blogger:
       on: true
-      avatar: https://herozql.oss-cn-beijing.aliyuncs.com/headshot.jpeg  # http://api.btstu.cn/sjtx/api.php?lx=c1&format=images
+      avatar: https://pic.001.social/headshot.jpeg  # http://api.btstu.cn/sjtx/api.php?lx=c1&format=images
       shape: rectangle # circle, rectangle
       url: /about/
       title: 零零幺
@@ -293,7 +293,7 @@ homePostImgsPosition:
 
 # 灯笼
 lantern:
-  on: true
+  on: false
   left: '测' # 左边灯笼的文字， 空字符串则没有文字
   right: '试' # 右边灯笼的文字
 
@@ -327,7 +327,7 @@ toc:
   heading: h2, h3, h4
   open: true # 是否展开，false则收缩
   showBtn: true # 是否显示展开收缩按钮
-  showOrderNumber: true # 是否显示序号
+  showOrderNumber: false # 是否显示序号
 
 # 音乐
 music:
@@ -545,7 +545,7 @@ danmu:
 # 归档页面图片、描述、视频，全屏 or 'http://xxx'
 archive:
   title: 'archive'
-  img: 'https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/ct_12.jpg'
+  img: 'https://pic.001.social/bg_pic/ct_12.jpg'
   desc: '愿你如风，被人温柔以待'
   full: false # 设置为true，则图片全屏显示
   video: '' # 如果有值，则在屏幕大于920px的时候，全屏显示视频，为空则显示图片(img)
@@ -557,7 +557,7 @@ archive:
 # 标签页面，配置同上
 tag:
   title: 'tags'
-  img: 'https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/ct_15.jpg' # 标签页上面的图片
+  img: 'https://pic.001.social/bg_pic/ct_15.jpg' # 标签页上面的图片
   desc: '愿你如风，被人温柔以待'
   full: false # 标签页上面的图片是否全屏显示
   video: '' # 如果有值，则在屏幕大于920px的时候，全屏显示视频
@@ -567,7 +567,7 @@ tag:
 # 标签详情页面，配置同上
 tagDetail:
   title: 'tag'
-  img: 'https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/ct_23.jpg'
+  img: 'https://pic.001.social/bg_pic/ct_23.jpg'
   desc: '愿你如风，被人温柔以待' # 标签页详情上上面的图片上的文字
   full: false
   video: ''
@@ -576,7 +576,7 @@ tagDetail:
 # 分类页面，配置同上
 categories:
   title: 'categories'
-  img: 'https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/ct_4.jpg'
+  img: 'https://pic.001.social/bg_pic/ct_4.jpg'
   desc: '愿你如风，被人温柔以待'
   full: false
   video: ''
@@ -586,7 +586,7 @@ categories:
 #分类详情页面，配置同上
 categoryDetail:
   title: 'category'
-  img: 'https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/ct_17.jpg'
+  img: 'https://pic.001.social/bg_pic/ct_17.jpg'
   desc: '愿你如风，被人温柔以待'
   full: false
   video: ''
