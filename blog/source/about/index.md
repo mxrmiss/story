@@ -1,6 +1,7 @@
 ---
 title: about
 date: 2021-12-09 21:44:50
+top_img: "https://pic.001.social/bg_pic/ct_15.jpg"
 ---
 
 ## 关于我 
@@ -27,4 +28,4 @@ date: 2021-12-09 21:44:50
 >
 >**博客园**：https://cnblogs.com/soulblog/
 
-![pic](https://herozql.oss-cn-beijing.aliyuncs.com/main/book_6-16417884628221.jpg)
+![pic](https://pic.001.social/main/book_6-16417884628221.jpg)
