@@ -89,7 +89,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://pic.001.social/bg_pic/bing_48.jpg
+index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_48.jpg
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/ct_13.jpg
