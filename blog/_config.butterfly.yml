@@ -408,7 +408,7 @@ footer:
   owner:
     enable: true
     since: 2021
-  custom_text: <a href="https://www.beian.miit.gov.cn"><img class="icp-icon" src="https://herozql.oss-cn-beijing.aliyuncs.com/beian.png"><span>备案号：皖ICP备2021018016号</span></a>
+  custom_text: <a href="https://www.beian.miit.gov.cn"><img class="icp-icon" src="https://herozql.oss-cn-beijing.aliyuncs.com/beian.png"><span>皖ICP备2021018016号</span></a>
   copyright: true # Copyright of theme and framework
 
 # Analysis
