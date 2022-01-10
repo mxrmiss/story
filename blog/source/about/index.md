@@ -1,7 +1,7 @@
 ---
 title: about
 date: 2021-12-09 21:44:50
-top_img: "https://pic.001.social/bg_pic/bing_64.jpeg"
+layout: about
 ---
 
 ## 关于我 
