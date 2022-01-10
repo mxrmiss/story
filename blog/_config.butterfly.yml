@@ -82,7 +82,7 @@ favicon: /img/logo.png
 
 # Avatar (頭像)
 avatar:
-  img: /img/headshot.jpeg
+  img: /img/avatar.png
   effect: false
 
 # Disable all banner image
@@ -95,11 +95,11 @@ index_img: /img/ct_43.jpg
 default_top_img: /img/ct_37.jpg
 
 # The banner image of archive page
-archive_img: /img/ct_4.jpg
+archive_img: /img/ct_44.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: /img/ct_23.jpg
+tag_img: /img/ct_38.jpg
 
 # The banner image of tag page
 # format:
@@ -108,7 +108,7 @@ tag_per_img: /img/ct_12.jpg
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: /img/ct_17.jpg
+category_img: /img/ct_32.jpg
 
 # The banner image of category page
 # format:
