@@ -39,8 +39,9 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fab fa-github: https://github.com/mxrmiss || Github
+  # fab fa-github: https://github.com/mxrmiss/ || Github
   fas fa-envelope: mailto:herozql@gmail.com || Email
+  iconfont icon-csdn: https://social.blog.csdn.net/ || CSDN
 
 # search (搜索)
 # --------------------------------------
@@ -408,7 +409,7 @@ footer:
   owner:
     enable: true
     since: 2021
-  custom_text: <a href="https://www.beian.miit.gov.cn"><span class="iconfont icon-beian"></span><span>皖ICP备2021018016号</span></a>
+  custom_text: <a href="https://www.beian.miit.gov.cn"><span class="iconfont icon-beian"></span><span> 皖ICP备2021018016号</span></a>
   copyright: true # Copyright of theme and framework
 
 # Analysis
