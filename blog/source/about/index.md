@@ -1,7 +1,7 @@
 ---
 title: about
 date: 2021-12-09 21:44:50
-top_img: "https://pic.001.social/bg_pic/ct_15.jpg"
+top_img: "https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/book_4.jpg"
 ---
 
 ## 关于我 
