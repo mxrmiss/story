@@ -1,7 +1,7 @@
 ---
 title: about
 date: 2021-12-09 21:44:50
-top_img: "/img/ct_64.jpeg"
+top_img: "/img/bing_64.jpeg"
 ---
 
 ## 关于我 
