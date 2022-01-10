@@ -98,8 +98,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: ayer
-#theme: fluid
-theme: butterfly
+theme: fluid
+#theme: butterfly
 #theme: bamboo
 
 # Deployment
