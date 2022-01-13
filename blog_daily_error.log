@@ -1,0 +1,24 @@
+
+=============****错误日志****===============
+Thu Jan 13 15:54:19 CST 2022
+
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+(node:8624) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:8624) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:8624) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+(node:8624) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(node:8624) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:8624) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
