@@ -3,8 +3,8 @@ title: Linux shell(5)-呈现数据
 date: 2022/1/12
 categories: linux
 tags: [linux, shell]
-top_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_30.jpg
-cover: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_30.jpg
+top_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_32.jpg
+cover: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_32.jpg
 ---
 
 # 1. 理解输入输出
@@ -60,7 +60,7 @@ $ cat test7
 
 ### 2.1 临时重定向
 
-- 在重定向到文件描述符时，你 必须在文件描述符数字之前加一个&：
+- 在重定向**到文件描述符**时，你 必须在文件描述符数字之前加一个&：
 
 ```
 echo "This is an error message" >&2 
