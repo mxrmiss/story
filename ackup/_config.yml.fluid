@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 旧事手札
-subtitle: '信息安全-编程技术博客'
-description: '个人技术博客'
-keywords: 信息安全
+title: lifestory
+subtitle: 'Be yourself'
+description: 'Personl life blog'
+keywords: life
 author: Ricardo
-language: zh-CN
+language: en
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://oldstory.cn
+url: https://life.oldstory.cn
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -43,18 +43,17 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-
 highlight:
-  enable: false
+  enable: true
   line_number: false
-  auto_detect: true
+  auto_detect: false
   tab_replace: ''
   wrap: false
   hljs: true
 prismjs:
-  enable: true
+  enable: false
   preprocess: true
-  line_number: false
+  line_number: true
   tab_replace: ''
 
 # Home page setting
@@ -99,8 +98,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: ayer
-#theme: fluid
-theme: butterfly
+theme: fluid
+#theme: butterfly
 #theme: bamboo
 
 # Deployment

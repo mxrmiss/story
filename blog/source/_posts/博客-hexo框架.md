@@ -1,7 +1,7 @@
 ---
 title: 博客搭建
 date: 2021/12/12
-tags: blog
+tags: [blog, hexo]
 categories: blog
 top_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_1.jpg
 cover: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_1.jpg
@@ -228,9 +228,30 @@ npm install hexo-generator-search --save
 >
 > ```css
 > search:
->   path: search.xml
->   field: post  //将post改为all即为搜索全部页面
+> path: search.xml
+> field: post  //将post改为all即为搜索全部页面
 > ```
+
+- 为网站使用到的所有外链添加rel="noopener external nofollow noreferrer", 可以有效地加强网站SEO和防止权重流失
+
+```
+npm i hexo-filter-nofollow --save
+```
+
+- 安装seo优化插件
+
+```bash
+// sitemap.xml适合提交给谷歌搜素引擎
+npm install hexo-generator-sitemap --save 
+// aidusitemap.xml适合提交百度搜索引擎
+npm install hexo-generator-baidu-sitemap --save 
+```
+
+- 中文链接转拼音
+
+```
+npm i hexo-permalink-pinyin --save
+```
 
 ##### 文章设置
 
@@ -355,9 +376,21 @@ vim /etc/nginx/nginx.conf
 
 ![屏幕截图 2021-12-10 115453](https://herozql.oss-cn-beijing.aliyuncs.com/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202021-12-10%20115453.jpg)
 
+- 自动跳转至https
+
+>在网上直接搜索域名是不会使用 https 的，除非你的浏览器强制使用 https 的方式浏览网页，否则直接输入域名会使用 http 的方式访问网站，并且显示不安全的字样，可以配置 nginx配置文件来自动跳转到https链接
+>
+>- 在http项中添加 `rewrite ^(.*)$ https://$host$1 permanent;`
+
+![image-20220115094852682](https://herozql.oss-cn-beijing.aliyuncs.com/main/image-20220115094852682.png)
+
 - 以下是我的nginx配置文件
 
 ```nginx
+# For more information on configuration, see:
+#   * Official English Documentation: http://nginx.org/en/docs/
+#   * Official Russian Documentation: http://nginx.org/ru/docs/
+
 user root;
 worker_processes auto;
 error_log /var/log/nginx/error.log;
@@ -394,14 +427,14 @@ http {
     server {
         listen       80 default_server;
         listen       [::]:80 default_server;
-        server_name  001.social;
-        root         /root/story/blog/public;
+        server_name  oldstory.cn;
+	rewrite ^(.*)$ https://$host$1 permanent;
+        root         xxxxxxx;  //填你的网站页面文件目录
 
         # Load configuration files for the default server block.
         include /etc/nginx/default.d/*.conf;
 
         location / {
-            index index.html;
         }
 
         error_page 404 /404.html;
@@ -413,14 +446,16 @@ http {
         }
     }
 
+# Settings for a TLS enabled server.
+
     server {
         listen       443 ssl http2 default_server;
         listen       [::]:443 ssl http2 default_server;
-        server_name  001.social;
-        root         /root/story/blog/public;
+        server_name  oldstory.cn;
+        root         xxxxxxxxxx;   //填你的网站页面文件目录
 
-        ssl_certificate cert/6712194_001.social.pem;
-        ssl_certificate_key cert/6712194_001.social.key;
+        ssl_certificate "xxxxxxxxxx";   //ssl公钥地址
+        ssl_certificate_key "xxxxxxxxxxx";  //s
         ssl_session_cache shared:SSL:1m;
         ssl_session_timeout  10m;
         ssl_ciphers PROFILE=SYSTEM;
@@ -442,7 +477,6 @@ http {
     }
 
 }
-
 ```
 
 - 启动Nginx
@@ -722,8 +756,10 @@ error:spawn failed...
 
 ##  4. 相关链接(有用)
 
-|                                                              |                                                              |
+| 名称                                                         | 网址                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Waline评论](https://waline.js.org/)                         | https://waline.js.org                                        |
+|                                                              |                                                              |
 | [Hexo官网](https://hexo.io/zh-cn/index.html)                 | [hexo-theme-ayer:  gitee](https://gitee.com/shen-yu/hexo-theme-ayer) |
 | [Hexo文档](https://hexo.io/zh-cn/docs/)                      | [hexo-theme-bamboo: gitee](https://gitee.com/yuang01/hexo-theme-bamboo) |
 | [Hexo主题](https://hexo.io/themes/)                          | [hexo-theme-fluid: gitee](https://gitee.com/mxrmiss/hexo-theme-fluid) |
@@ -732,6 +768,7 @@ error:spawn failed...
 | [博客园，CSDN等平台利用Github绑定域名](https://social.blog.csdn.net/article/details/121484520) | [hexo-theme-bamboo: github](https://github.com/yuang01/hexo-theme-bamboo) |
 | [typora+阿里云图床+印象笔记+OneDrive](https://blog.csdn.net/missmxr/article/details/121443438?spm=1001.2014.3001.5501) | [hexo-theme-fluid: github](https://github.com/fluid-dev/hexo-theme-fluid) |
 | [图标网站：Font Awesome](https://fontawesome.com/)           | [hexo-theme-butterfly:github](https://github.com/jerryc127/hexo-theme-butterfly) |
+|                                                              |                                                              |
 
 
 
