@@ -22,3 +22,39 @@ invocation.
 (node:8624) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
 (node:8624) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
 (node:8624) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+=============****错误日志****===============
+Mon Jan 24 00:30:53 CST 2022
+
+(node:4893) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4893) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:4893) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+(node:4893) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(node:4893) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:4893) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+(node:4952) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4952) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:4952) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+(node:4952) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(node:4952) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:4952) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+=============****错误日志****===============
+Mon Jan 24 00:34:02 CST 2022
+
+From github.com:mxrmiss/story
+   9deb61f..11e9fed  main       -> origin/main
+(node:5194) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5194) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:5194) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+(node:5194) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(node:5194) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:5194) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+(node:5253) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5253) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:5253) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+(node:5253) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(node:5253) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:5253) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency

@@ -8,11 +8,12 @@
 
 menu:
   主页: / || fas fa-home
-  博客||fas fa-list:
-    归档: /archives/ || fas fa-archive
-    标签: /tags/ || fas fa-tags
-    分类: /categories/ || fas fa-folder-open
+  #博客||fas fa-list:
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
   关于: /about/ || fas fa-heart
+  生活: https://life.oldstory.cn || iconfont icon-icon
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: true
@@ -20,9 +21,9 @@ hide_sidebar_menu_child: true
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: pale night #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: darker #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
-highlight_lang: true # show the code language
+highlight_lang: false # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
 highlight_height_limit: false # unit: px
 code_word_wrap: false
@@ -78,42 +79,42 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://pic.001.social/logo.png
+favicon: https://herozql.oss-accelerate.aliyuncs.com/logo.png
 
 # Avatar (頭像)
 avatar:
-  img: https://pic.001.social/headshot.jpeg
+  img: https://herozql.oss-accelerate.aliyuncs.com/headshot.jpeg
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://pic.001.social/bg_pic/bing_48.jpg
+index_img: https://herozql.oss-accelerate.aliyuncs.com/bg_pic/bing_48.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://pic.001.social/bg_pic/ct_37.jpg
+default_top_img: https://herozql.oss-accelerate.aliyuncs.com/bg_pic/ct_37.jpg
 
 # The banner image of archive page
-archive_img: https://pic.001.social/bg_pic/ct_44.jpg
+archive_img: https://herozql.oss-accelerate.aliyuncs.com/bg_pic/ct_44.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: https://pic.001.social/bg_pic/ct_38.jpg
+tag_img: https://herozql.oss-accelerate.aliyuncs.com/bg_pic/ct_38.jpg
 
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img: https://pic.001.social/bg_pic/ct_12.jpg
+tag_per_img: https://herozql.oss-accelerate.aliyuncs.com/bg_pic/ct_12.jpg
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: https://pic.001.social/bg_pic/ct_32.jpg
+category_img: https://herozql.oss-accelerate.aliyuncs.com/bg_pic/ct_32.jpg
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_per_img: https://pic.001.social/bg_pic/ct_15.jpg
+category_per_img: https://herozql.oss-accelerate.aliyuncs.com/bg_pic/ct_15.jpg
 
 cover:
   # display the cover or not (是否顯示文章封面)
@@ -260,7 +261,7 @@ comments:
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
   use:
   # - livere
-    - Valine
+    - Waline
   # - Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -329,7 +330,7 @@ valine:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: # Waline server address url
+  serverURL: waline-blog-6au03eawi-mxrmiss.vercel.app
   avatar: monsterid # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
   avatarCDN: # Gravatar CDN baseURL
   bg: # waline background
@@ -409,7 +410,7 @@ footer:
   owner:
     enable: true
     since: 2021
-  custom_text: <a href="https://www.beian.miit.gov.cn"><span class="iconfont icon-beian"></span><span> 皖ICP备2021018016号</span></a>
+  custom_text: <a href="https://beian.miit.gov.cn"><span class="iconfont icon-beian"></span><span> 皖ICP备2021018016号-3</span></a>
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -417,7 +418,7 @@ footer:
 
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics:
+baidu_analytics: 1de4becf2c89f9420017d99d339a252c
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
@@ -460,10 +461,10 @@ google_adsense:
 # --------------------------------------
 
 site_verification:
-  # - name: google-site-verification
-  #   content: xxxxxx
-  # - name: baidu-site-verification
-  #   content: xxxxxxx
+  - name: google-site-verification
+    content: xxxxxx
+  - name: baidu-site-verification
+    content: wzOUsAhphTFrwe9r
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
@@ -472,8 +473,8 @@ site_verification:
 # Notice: color value must in double quotes like "#000" or may cause error!
 
 theme_color:
-  enable: false
-  main: "#49B1F5"
+  enable: true
+  main: "#3a4146"
   paginator: "#00c4b6"
   button_hover: "#FF7242"
   text_selection: "#00c4b6"
@@ -482,7 +483,7 @@ theme_color:
   hr_color: "#A4D8FA"
   code_foreground: "#F47466"
   code_background: "rgba(27, 31, 35, .05)"
-  toc_color: "#00c4b6"
+  toc_color: "#3a4146"
   blockquote_padding_color: "#49b1f5"
   blockquote_background_color: "#49b1f5"
 
@@ -502,7 +503,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://pic.001.social/bg_pic/bing_32.jpg)
+background: url(https://herozql.oss-accelerate.aliyuncs.com/bg_pic/bing_32.jpg)
 
 # Footer Background
 footer_bg: true
@@ -622,11 +623,10 @@ subtitle:
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
-    - 别来不寄一行书。寻常相见了&#44; 犹道不如初
+    - 言念君子&#44;温其如玉
     - 年年岁岁花相似&#44; 岁岁年年人不同
     - 此翁白头真可怜&#44; 伊昔红颜美少年
     - 同来望月人何处&#44; 风影依稀似去年
-    - 我是人间惆怅客&#44; 知君何事泪纵横&#44; 断肠声里忆平生
     - 十年一觉扬州梦&#44; 赢得青楼薄幸名
     - 从此无心爱良夜&#44; 任他明月下西楼
     - 等闲变却故人心&#44; 却道故心人易变
@@ -654,7 +654,7 @@ aside:
       link: https://github.com/mxrmiss
   card_announcement:
     enable: true
-    content: website is testing...
+    content: 欢迎访问，网站公测中，正在努力优化SEO ^-^
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -668,7 +668,7 @@ aside:
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
-    color: false
+    color: true
     sort_order: # Don't modify the setting unless you know how it works
   card_archives:
     enable: true
@@ -712,7 +712,7 @@ change_font_size: true
 
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
-  enable: false
+  enable: true
   # The text of a button
   default: 简
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
@@ -756,7 +756,7 @@ fancybox: false
 # mermaid
 # see https://github.com/mermaid-js/mermaid
 mermaid:
-  enable: false
+  enable: true
   # built-in themes: default/forest/dark/neutral
   theme: default
 
@@ -842,7 +842,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="//at.alicdn.com/t/font_3128210_0rc78pvcjzfg.css">
+    - <link rel="stylesheet" href="//at.alicdn.com/t/font_3128210_91cd6k83zju.css">
   bottom:
     # - <script src="xxxx"></script>
 

@@ -18,11 +18,11 @@
 
 # 用于浏览器标签的图标
 # Icon for browser tab
-favicon: https://herozql.oss-cn-beijing.aliyuncs.com/logo.png
+favicon: https://herozql.oss-accelerate.aliyuncs.com/logo.png
 
 # 用于苹果设备的图标
 # Icon for Apple touch
-apple_touch_icon: https://herozql.oss-cn-beijing.aliyuncs.com/logo.png
+apple_touch_icon: https://herozql.oss-accelerate.aliyuncs.com/logo.png
 
 # 浏览器标签页中的标题分隔符，效果： 文章名 - 站点名
 # Title separator in browser tab, eg: article - site
@@ -219,7 +219,7 @@ web_analytics:  # 网页访问统计
   # 百度统计的 Key，值需要获取下方链接中 `hm.js?` 后边的字符串
   # Baidu analytics, get the string behind `hm.js?`
   # See: https://tongji.baidu.com/sc-web/10000033910/home/site/getjs?siteId=13751376
-  baidu: ade47454611a4a974d020eeae648c3e6
+  baidu: 1de4becf2c89f9420017d99d339a252c
 
   # Google 统计的 Tracking ID
   # Google analytics, set Tracking ID
@@ -292,7 +292,7 @@ iconfont: //at.alicdn.com/t/font_1736178_kmeydafke9r.css
 navbar:
   # 导航栏左侧的标题，为空则按 hexo config 中 `title` 显示
   # The title on the left side of the navigation bar. If empty, it is based on `title` in hexo config
-  blog_title: "旧事手札"
+  blog_title: "lifestory"
 
   # 导航栏毛玻璃特效，实验性功能，可能会造成页面滚动掉帧和抖动，部分浏览器不支持会自动不生效
   # Navigation bar frosted glass special animation. It is an experimental feature
@@ -316,6 +316,7 @@ navbar:
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
+    - { key: "Technology", link: "https://oldstory.cn", icon: "iconfont icon-books"}
     #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
@@ -414,7 +415,7 @@ footer:
   beian:
     enable: true
     # ICP证号
-    icp_text: 皖ICP备2021018016号-2
+    icp_text: 皖ICP备2021018016号-3
     # 公安备案号，不填则只显示ICP
     police_text: 
     # 公安备案的编号，用于URL跳转查询7
@@ -430,7 +431,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: https://pic.001.social/bg_pic/ct_43.jpg
+  banner_img: https://herozql.oss-accelerate.aliyuncs.com/bg_pic/ct_43.jpg
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -449,7 +450,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "ふじわら たくみの86はどんなに速くても時間に追いつくことができません"
+    text: "My big fish must be somewhere"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -502,7 +503,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: /img/default.png
+  banner_img: https://herozql.oss-accelerate.aliyuncs.com/bg_pic/ct_36.jpg
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -649,7 +650,7 @@ post:
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis
-    type: disqus
+    type: waline
 
 
 #---------------------------
@@ -732,7 +733,7 @@ valine:
 # Derived from Valine, with self-hosted service and new features
 # See: https://waline.js.org/
 waline:
-  serverURL: ''
+  serverURL: 'waline-blog-6au03eawi-mxrmiss.vercel.app'
   path: window.location.pathname
   placeholder:
   meta: ['nick', 'mail', 'link']
@@ -796,7 +797,7 @@ cusdis:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: https://pic.001.social/bg_pic/ct_41.jpg
+  banner_img: https://herozql.oss-accelerate.aliyuncs.com/bg_pic/ct_41.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -808,7 +809,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: https://pic.001.social/bg_pic/ct_45.jpg
+  banner_img: https://herozql.oss-accelerate.aliyuncs.com/bg_pic/ct_45.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -838,7 +839,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: https://pic.001.social/bg_pic/ct_32.jpg
+  banner_img: https://herozql.oss-accelerate.aliyuncs.com/bg_pic/ct_32.jpg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:
@@ -856,13 +857,13 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: https://pic.001.social/bg_pic/ct_40.jpg
+  banner_img: https://herozql.oss-accelerate.aliyuncs.com/bg_pic/ct_35.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
-  avatar: https://pic.001.social/headshot.jpeg
+  avatar: https://herozql.oss-accelerate.aliyuncs.com/headshot.jpeg
   name: "Ricardo"
-  intro: "个人技术博客"
+  intro: "Personal Life Blog"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
@@ -945,7 +946,7 @@ links:
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis
-    type: valine
+    type: waline
 
 
 #---------------------------
