@@ -49,12 +49,12 @@ favicon: https://herozql.oss-cn-beijing.aliyuncs.com/logo.png # or .png .jpg .sv
 # sidebar侧边栏
 sidebar:
   on: true
-  position: left # left right
+  position: right # left right
   widget_library:
     side_blogger:
       on: true
       avatar: https://herozql.oss-cn-beijing.aliyuncs.com/headshot.jpeg  # http://api.btstu.cn/sjtx/api.php?lx=c1&format=images
-      shape: rectangle # circle, rectangle
+      shape: circle # circle, rectangle
       url: /about/
       title: 旧事手札
       subtitle: 信息安全与编程-技术博客
@@ -184,15 +184,15 @@ swiper:
   readMoreBtnBackgroundColor: '' # 阅读更多按钮背景颜色,空字符串则默认使用主题颜色
   bubble: true # 轮播图是否显示气泡,也可以打开底下的花瓣或者雪花特效 sakura（花瓣）: true snow(雪花): true
   # 当没有文章设置swiper: true时候，轮播图会显示以下default默认内容，可自行切换对应内容
-  defaultImg: 'https://img11.360buyimg.com/ddimg/jfs/t1/160978/33/20686/2476596/6083e62dEa588862b/63f8f2163ab61b2f.png' # 图片，没有则随机选取
+  defaultImg: 'https://herozql.oss-accelerate.aliyuncs.com/bg_pic/ct_43.jpg' # 图片，没有则随机选取
   defaultVideo: '' # video，min-width:992px show
   defaultVideoLoadingImg: 'https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif' # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
   defaultTile: '旧事手札' # 标题
   defaultDesc: ['言念君子，温其如玉', '等闲变却故人心，却道故心人易变'] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
   defaultLeftBtnText: '百度' # 左边按钮文字, 空字符串则不显示
   defaultLeftBtnLink: 'https://baidu.com' # 左边按钮链接 
-  defaultRightBtnText: '生活' # 右边按钮的文字，空字符串则不显示
-  defaultRightBtnLink: 'https://life.oldstory.cn' # 右边的按钮的链接
+  defaultRightBtnText: '必应' # 右边按钮的文字，空字符串则不显示
+  defaultRightBtnLink: 'https://cn.bing.com' # 右边的按钮的链接
   defaultDescTyped: true # defaultDesc文字是否开启打字特效  is typed
   defaultDescTypedSpeed: 100 # defaultDesc 打字速度, typed typeSpeed
   defaultDescTypedBackSpeed: 50 # defaultDesc 打字返回速度 typed backSpeed
@@ -357,9 +357,7 @@ baseInfo:
 # 关于我 技能
 skills:  # color or #000 技能
   on: false
-  data: # data下面的值，不是固定个数的，可以自己增加或者删除
-    python:
-
+  # data: # data下面的值，不是固定个数的，可以自己增加或者删除
   #   HTML5:
   #     background: 'linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%)'
   #     percent: 90%
@@ -538,6 +536,11 @@ utterance:
   issue_term: pathname
   cdn: https://utteranc.es/client.js
 
+# waline 评论 https://waline.js.org
+waline:
+  on: true
+  serverURL: waline-blog-6au03eawi-mxrmiss.vercel.app
+
 # 弹幕 只对valine评论有效
 danmu:
   on: false
@@ -705,7 +708,7 @@ site_footer:
       url: https://github.com/mxrmiss
     - icon: fas fa-qq
       url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2296557984
-  copyright: 'Copyright © 2021-2022 | <a href="https://www.beian.miit.gov.cn"><span>备案号：皖ICP备2021018016号-3</span></a> '
+  copyright: 'Copyright © 2021-2022 | <a href="https://beian.miit.gov.cn"><span class="iconfont icon-beian"></span><span> 皖ICP备2021018016号-3</span></a>'
   custom: # 根据需要自行取消注释，label: 'markdown格式'，会在下面继续增加内容
     - label: '春眠不觉晓，处处闻啼鸟。'
     # - label: '<br>'
