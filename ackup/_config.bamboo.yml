@@ -2,19 +2,19 @@
 
 # 菜单
 menu:
-  Home:
+  主页:
     url: /
     icon: fas fa-home
-  Archives:
+  归档:
     url: /archives
     icon: fas fa-archive
-  Tags:
+  标签:
     url: /tags
     icon: fas fa-tags
-  Categories:
+  分类:
     url: /categories
     icon: fas fa-bookmark
-  About:
+  关于:
     url: /about
     icon: fas fa-user
   # Friends:
@@ -41,7 +41,7 @@ Github:
   url: https://github.com/mxrmiss
 
 # 网站logo
-logo: /medias/logo.png # 为空则不显示
+logo: https://herozql.oss-cn-beijing.aliyuncs.com/logo.png # 为空则不显示
 
 # 网站 favicon
 favicon: https://herozql.oss-cn-beijing.aliyuncs.com/logo.png # or .png .jpg .svg .gif .jpeg .ico
@@ -56,8 +56,8 @@ sidebar:
       avatar: https://herozql.oss-cn-beijing.aliyuncs.com/headshot.jpeg  # http://api.btstu.cn/sjtx/api.php?lx=c1&format=images
       shape: rectangle # circle, rectangle
       url: /about/
-      title: 零零幺
-      subtitle: 信息安全与编程-个人技术博客
+      title: 旧事手札
+      subtitle: 信息安全与编程-技术博客
       jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
       fontFammily: Long Cang,cursive
       background: '#fff'
@@ -173,7 +173,7 @@ swiper:
   # 当在.md文件中，设置swiper:true，会将该文章放到轮播中，
   showPrevNext: true # 是否显示左右切换按钮
   showIndicators: false  # 是否显示指示器
-  autoplay: false # 是否自动轮播
+  autoplay: true # 是否自动轮播
   loop: true # 让轮播看起来是循环的, 例如false的话，到达最后一个轮播图的时候，右按钮不能点击
   delay: 5000 # 切换延迟时间
   effect: 'slide' # 'fade': 淡入淡出效果 , fade效果暂不支持pjax
@@ -187,12 +187,12 @@ swiper:
   defaultImg: 'https://img11.360buyimg.com/ddimg/jfs/t1/160978/33/20686/2476596/6083e62dEa588862b/63f8f2163ab61b2f.png' # 图片，没有则随机选取
   defaultVideo: '' # video，min-width:992px show
   defaultVideoLoadingImg: 'https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif' # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
-  defaultTile: '零零幺' # 标题
-  defaultDesc: [网站测试中......] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
-  defaultLeftBtnText: '' # 左边按钮文字, 空字符串则不显示
-  defaultLeftBtnLink: 'https://yuang01.gitee.io/2021/02/08/hexo-theme-bamboo-new/' # 左边按钮链接 
-  defaultRightBtnText: '' # 右边按钮的文字，空字符串则不显示
-  defaultRightBtnLink: 'https://gitee.com/yuang01/hexo-theme-bamboo/repository/archive/dev.zip' # 右边的按钮的链接
+  defaultTile: '旧事手札' # 标题
+  defaultDesc: ['言念君子，温其如玉', '等闲变却故人心，却道故心人易变'] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
+  defaultLeftBtnText: '百度' # 左边按钮文字, 空字符串则不显示
+  defaultLeftBtnLink: 'https://baidu.com' # 左边按钮链接 
+  defaultRightBtnText: '生活' # 右边按钮的文字，空字符串则不显示
+  defaultRightBtnLink: 'https://life.oldstory.cn' # 右边的按钮的链接
   defaultDescTyped: true # defaultDesc文字是否开启打字特效  is typed
   defaultDescTypedSpeed: 100 # defaultDesc 打字速度, typed typeSpeed
   defaultDescTypedBackSpeed: 50 # defaultDesc 打字返回速度 typed backSpeed
@@ -208,7 +208,7 @@ swiper:
   # 整个轮播图宽高都是100%  (轮播图的文字和按钮只能居中显示)
   full: true # full 优先级大于 imgwidthFull
   # 两边透明，imgwidthFull/full: false的时候，设置该值为true，则两边的模糊效果为透明
-  bothSideTransparent: false
+  bothSideTransparent: true
 
 # 回到顶部
 goTop: 
@@ -227,12 +227,12 @@ show_count: true
 
 # 打赏功能
 donate:
-  on: false
+  on: true
 donate_message: 你的赏识是我前进的动力
 # 支付宝打赏图片相对路径
-Alipay: '/medias/zfb.jpg'
+Alipay: ''
 # 微信打赏图片相对路径
-WeChatpay: '/medias/wx.jpg'
+WeChatpay: ''
 
 # 分享功能
 sharejs: 
@@ -268,7 +268,7 @@ inputEffects:
 
 # 背影彩带
 ribbon:
-  on: true
+  on: false
 
 # live-2d(左下角动画人物)
 live2d:
@@ -278,13 +278,13 @@ live2d:
 
 # 首页雪花飘落效果--冬天
 snow:
-  on: true
+  on: false
   onlyPc: true # 设为true，只有pc端显示雪花特效
 
 # 首页花瓣飘落效果--春天
 sakura:
-  on: false
-  onlyPc: false # 设为true，只有pc端显示花瓣特效
+  on: true
+  onlyPc: true # 设为true，只有pc端显示花瓣特效
 
 # 首页文章图片是否一左一右交错显示
 homePostImgsPosition:
@@ -299,7 +299,7 @@ lantern:
 
 # https://scrollrevealjs.org/api/reveal.html 滚动动画, 旧版本用的是aos.js(已经弃用aos.js)
 scrollreveal:
-  on: false
+  on: true
   js: https://cdn.jsdelivr.net/npm/scrollreveal@4.0.6/dist/scrollreveal.min.js
   distance: 120px
   duration: 400 # ms
@@ -349,15 +349,17 @@ music:
 # 关于我
 baseInfo:
   on: false
-  age: 99 # 年龄
+  age: 101 # 年龄
   sex: '男' # 性别
-  coordinate: '火星' # 坐标
-  status: '划水中' # 状态
+  coordinate: '中国安徽' # 坐标
+  status: '改代码中...' # 状态
 
 # 关于我 技能
 skills:  # color or #000 技能
   on: false
-  # data: # data下面的值，不是固定个数的，可以自己增加或者删除
+  data: # data下面的值，不是固定个数的，可以自己增加或者删除
+    python:
+
   #   HTML5:
   #     background: 'linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%)'
   #     percent: 90%
@@ -429,7 +431,8 @@ notice:
   title: '公告'
   background: 'url("https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png")' # url("xxx") or red or #000 or rgba() ..
   list: # list相当于数组对象，[{title:'xx',date: 'xx', url: 'xxx', color: 'red'}]根据自己实际情况，增加或者删除
-    - title: '网站测试中'
+    - title: '正在努力优化网站主题'
+      date: '2022-01-24'
     # - title: '#博客更新到2.0了'
     #   date: '2021-04-28'
     #   url: '/archives'   # 可以为空, 也可以是本地页面地址如 '/archives'
@@ -623,7 +626,7 @@ color_scheme:
   # 通用颜色
   common:
     # 主题色
-    theme: '#42b983'
+    theme: '#3a4146'
     # 主题色块内部的文字颜色
     inner: '#fff'
     # 链接色 a标签
@@ -694,15 +697,15 @@ site_footer:
   # busuanzi是访客数那个,假如说你想在 social和 copyright中间加一个自定义内容, 可以这样写 layout: [social, aaa ,copyright, busuanzi, custom], 然后在下面写上aaa: 'markdown格式', aaa这个名称随便取
   layout: [social, copyright, busuanzi, custom]
   social:
-    # - icon: fas fa-rss
-    #   url: /atom.xml
-    # - icon: fas fa-envelope
-    #   url: mailto:1730241541@qq.com
-    # - icon: fas fa-github
-    #   url: https://github.com/yuang01/hexo-theme-bamboo
-    # - icon: fas fa-qq
-    #   url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1730241541
-  copyright: 'Copyright © 2021-2022 | <a href="https://www.beian.miit.gov.cn"><span>备案号：皖ICP备2021018016号</span></a> '
+    - icon: fas fa-rss
+      url: /atom.xml
+    - icon: fas fa-envelope
+      url: mailto:heroli520@outlook.com
+    - icon: fas fa-github
+      url: https://github.com/mxrmiss
+    - icon: fas fa-qq
+      url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2296557984
+  copyright: 'Copyright © 2021-2022 | <a href="https://www.beian.miit.gov.cn"><span>备案号：皖ICP备2021018016号-3</span></a> '
   custom: # 根据需要自行取消注释，label: 'markdown格式'，会在下面继续增加内容
     - label: '春眠不觉晓，处处闻啼鸟。'
     # - label: '<br>'
@@ -735,7 +738,7 @@ mermaid:
 
 # pjax
 pjax:
-  on: true
+  on: false
   animation: circle # false, nprogress, circle
   animationColor: 'orangered' # animation为 nprogress时候的动画颜色, red or #000 ...
   cacheBust: false # url 地址追加时间戳，用以避免浏览器缓存
@@ -790,7 +793,7 @@ wordcount:
 import:
   link:
     # - <link src"xxx.css"></link>
-    - 
+    - <link rel="stylesheet" href="//at.alicdn.com/t/font_3128210_91cd6k83zju.css">
     - 
   script: 
     # - <script src="xxx.js"></script>
