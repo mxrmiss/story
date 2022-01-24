@@ -705,7 +705,7 @@ site_footer:
       url: https://github.com/mxrmiss
     - icon: fas fa-qq
       url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2296557984
-  copyright: 'Copyright © 2021-2022 | <a href="https://www.beian.miit.gov.cn"><span>备案号：皖ICP备2021018016号-3</span></a> '
+  copyright: 'Copyright © 2021-2022 | <a href="https://www.beian.miit.gov.cn"><span>皖ICP备2021018016号-3</span></a> '
   custom: # 根据需要自行取消注释，label: 'markdown格式'，会在下面继续增加内容
     - label: '春眠不觉晓，处处闻啼鸟。'
     # - label: '<br>'
