@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: lifestory
-subtitle: 'Be yourself'
-description: 'Personl life blog'
-keywords: life
+title: 旧事手札
+subtitle: '记录美好生活'
+description: '个人技术博客'
+keywords: technology
 author: Ricardo
-language: en
+language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://life.oldstory.cn
+url: https://oldstory.cn
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
