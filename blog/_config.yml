@@ -109,15 +109,15 @@ theme: fluid
 #  repo: git@github.com:mxrmiss/story.git
 #  branch: master
 
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
-  content:
-  content_limit: 140
-  content_limit_delim: " "
-  order_by: -date
+#feed:
+# type: atom
+# path: atom.xml
+# limit: 20
+# hub:
+#  content:
+#  content_limit: 140
+#  content_limit_delim: " "
+#  order_by: -date
 
 search:
   path: search.xml
