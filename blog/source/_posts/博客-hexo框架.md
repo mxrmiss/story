@@ -209,13 +209,19 @@ hexo init <folder>  //folder为你所创建文件夹的名称，是博客的根�
 - 如果你没有pug 以及stylus 的渲染器，请下载安装：
 
 ```
-npm install hexo -renderer -pug hexo -renderer -stylus - -save
+npm install hexo-renderer-pug hexo-renderer-stylus --save
 ```
 
 - 字数统计
 
 ```
 npm install hexo-wordcount --save
+```
+
+- RSS订阅
+
+```
+npm install hexo-generator-feed --save
 ```
 
 - 全局搜索
@@ -592,7 +598,7 @@ git config --global core.quotepath false
 - 创建ssh密匙
 
 ```
-ssh-keygen -t rsa -C "GitHub 邮箱"
+ssh-keygen -t rsa -C "heroli520@outlook.com"
 ```
 
 - 输出 id_rsa.pub 内容并复制到GitHub中的setting页面上
