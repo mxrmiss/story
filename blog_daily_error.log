@@ -371,3 +371,120 @@ WARN  No layout: tags/hexo/index.html
 WARN  No layout: tags/bufferover/index.html
 WARN  No layout: tags/web/index.html
 WARN  No layout: tags/English/index.html
+=============****错误日志****===============
+Sat Jan 29 19:19:09 CST 2022
+
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+(node:12947) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:12947) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:12947) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+(node:12947) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(node:12947) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:12947) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+=============****错误日志****===============
+Thu Feb 10 10:58:26 CST 2022
+
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+From github.com:mxrmiss/story
+   b0d75a5..2751d35  main       -> origin/main
+(node:35099) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:35099) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:35099) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+(node:35099) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(node:35099) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:35099) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+=============****错误日志****===============
+Tue Feb 15 14:13:56 CST 2022
+
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+(node:45737) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:45737) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:45737) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+(node:45737) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(node:45737) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:45737) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+=============****错误日志****===============
+2022年 03月 17日 星期四 12:04:58 CST
+
+warning: 不建议在没有为偏离分支指定合并策略时执行 pull 操作。 您可以在执行下一次
+pull 操作之前执行下面一条命令来抑制本消息：
+
+  git config pull.rebase false  # 合并（缺省策略）
+  git config pull.rebase true   # 变基
+  git config pull.ff only       # 仅快进
+
+您可以将 "git config" 替换为 "git config --global" 以便为所有仓库设置
+缺省的配置项。您也可以在每次执行 pull 命令时添加 --rebase、--no-rebase，
+或者 --ff-only 参数覆盖缺省设置。
+
+来自 github.com:mxrmiss/story
+   2751d35..cfe8f7a  main       -> origin/main
+(node:115517) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:115517) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:115517) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+(node:115517) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(node:115517) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:115517) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+=============****错误日志****===============
+2022年 03月 17日 星期四 12:30:00 CST
+
+warning: 不建议在没有为偏离分支指定合并策略时执行 pull 操作。 您可以在执行下一次
+pull 操作之前执行下面一条命令来抑制本消息：
+
+  git config pull.rebase false  # 合并（缺省策略）
+  git config pull.rebase true   # 变基
+  git config pull.ff only       # 仅快进
+
+您可以将 "git config" 替换为 "git config --global" 以便为所有仓库设置
+缺省的配置项。您也可以在每次执行 pull 命令时添加 --rebase、--no-rebase，
+或者 --ff-only 参数覆盖缺省设置。
+
+来自 github.com:mxrmiss/story
+   cfe8f7a..6fac25a  main       -> origin/main
+(node:115623) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:115623) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:115623) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+(node:115623) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(node:115623) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:115623) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency

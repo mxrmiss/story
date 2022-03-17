@@ -9,7 +9,7 @@ menu:
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
   关于: /about/ || fas fa-heart
-  生活: https://life.oldstory.cn || iconfont icon-icon
+  #  生活: https://life.oldstory.cn || iconfont icon-icon
 
 # Code Blocks (代碼相關)
 # --------------------------------------
