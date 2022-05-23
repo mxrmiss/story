@@ -3,7 +3,7 @@ title: Linux shell(1)-构建基本脚本
 date: 2022/1/6
 categories: linux
 tags: [linux, shell]
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_25.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_25.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_25.jpg
 ---
 

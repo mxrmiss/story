@@ -3,7 +3,7 @@ title: python可迭代对象、迭代器和生成器
 date: 2022/1/22
 categories: python
 tags: python
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_40.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_40.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_40.jpg
 ---
 

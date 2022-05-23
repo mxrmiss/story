@@ -3,7 +3,7 @@ title: Linux基础操作
 date: 2020-09-14 14:06
 categories: linux
 tags: linux
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_6.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_6.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_6.jpg
 ---
 

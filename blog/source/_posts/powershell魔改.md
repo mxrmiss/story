@@ -3,7 +3,7 @@ title: powershell魔改
 date: 2021/12/18
 categories: windows
 tags: [windows, powershell, shell]
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_10.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_10.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_10.jpg
 ---
 

@@ -3,7 +3,7 @@ title: msfvenon使用整理
 date: 2022/1/2
 categories: 渗透测试
 tags: [渗透测试,tool]
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_24.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_24.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_24.jpg
 ---
 

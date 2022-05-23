@@ -3,7 +3,7 @@ title: Linux环境变量
 date: 2021/12/25
 tags: linux
 categories: linux
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_12.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_12.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_12.jpg
 ---
 

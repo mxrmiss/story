@@ -3,7 +3,7 @@ title: Linux shell(7)-函数
 date: 2022/1/29
 categories: linux
 tags: [linux, shell]
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_43.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_43.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_43.jpg
 ---
 

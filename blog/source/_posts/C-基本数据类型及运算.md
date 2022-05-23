@@ -3,7 +3,7 @@ title: C-基本数据类型及运算
 date: 2022/3/17
 categories: C
 tags: C
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_48.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_48.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_48.jpg
 ---
 

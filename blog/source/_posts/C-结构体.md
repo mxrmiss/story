@@ -3,7 +3,7 @@ title: C-结构体
 date: 2022/3/23
 categories: C
 tags: C
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_44.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_44.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_44.jpg
 ---
 

@@ -3,7 +3,7 @@ title: ubuntu拨号上网
 date: 2022/3/18
 categories: linux
 tags: [linux, ubuntu]
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_57.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_57.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_57.jpg
 ---
 

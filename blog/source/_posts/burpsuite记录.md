@@ -3,7 +3,7 @@ title: burpsuite记录
 date: 2022/1/14
 categories: 渗透测试
 tags: [渗透测试, tool]
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_37.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_37.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_37.jpg
 ---
 

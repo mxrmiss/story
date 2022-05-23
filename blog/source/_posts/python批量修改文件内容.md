@@ -3,7 +3,7 @@ title: python批量修改文件内容
 date: 2022/1/25
 categories: python
 tags: [python, script]
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_42.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_42.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_42.jpg
 ---
 

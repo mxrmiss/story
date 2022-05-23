@@ -3,7 +3,7 @@ title: powershell-(1)
 date: 2022/1/22
 categories: windows
 tags: [powershell, shell]
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_38.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_38.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_38.jpg
 ---
 

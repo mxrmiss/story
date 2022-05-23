@@ -3,7 +3,7 @@ title: python正则表达式
 date: 2022/1/12
 categories: python
 tags: [python, 正则]
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_31.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_31.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_31.jpg
 ---
 

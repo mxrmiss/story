@@ -3,7 +3,7 @@ title: 博客搭建
 date: 2021/12/12
 tags: [blog, hexo]
 categories: blog
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_1.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_1.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_1.jpg
 ---
 
@@ -294,7 +294,7 @@ title:
 date:
 tags:
 categories:
-index_img:
+temp_img:
 banner_img:
 ---
 ```

@@ -3,7 +3,7 @@ title: Hackthebox::Bastard
 date: 2021/12/12
 tags: [walkthrough, 渗透测试]
 categories: 渗透测试
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_13.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_13.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_13.jpg
 ---
 

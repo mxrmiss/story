@@ -3,7 +3,7 @@ title: Linux软件快捷使用
 date: 2021-12-14 14:06
 categories: linux
 tags: linux
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_8.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_8.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_8.jpg
 ---
 

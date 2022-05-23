@@ -3,7 +3,7 @@ title: python文件处理
 date: 2022/1/22
 categories: python
 tags: python
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_39.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_39.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_39.jpg
 ---
 

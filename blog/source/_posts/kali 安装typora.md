@@ -3,7 +3,7 @@ title: kali 安装typora
 date: 2021/12/14
 categories: linux
 tags: [linux, tool]
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_9.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_9.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_9.jpg
 ---
 

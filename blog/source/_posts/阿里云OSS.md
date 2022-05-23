@@ -3,7 +3,7 @@ title: Linux安装阿里云OSS
 date: 2022/3/17
 categories: linux
 tags: linux
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_45.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_45.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_45.jpg
 ---
 

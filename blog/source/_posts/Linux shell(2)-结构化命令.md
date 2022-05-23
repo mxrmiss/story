@@ -4,7 +4,7 @@ title: Linux shell(2)-结构化命令
 date: 2022/1/7
 categories: linux
 tags: [linux, shell]
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_26.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_26.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_26.jpg
 ---
 

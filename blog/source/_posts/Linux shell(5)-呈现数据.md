@@ -3,7 +3,7 @@ title: Linux shell(5)-呈现数据
 date: 2022/1/12
 categories: linux
 tags: [linux, shell]
-index_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_32.jpg
+temp_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_32.jpg
 banner_img: https://herozql.oss-cn-beijing.aliyuncs.com/bg_pic/bing_32.jpg
 ---
 
